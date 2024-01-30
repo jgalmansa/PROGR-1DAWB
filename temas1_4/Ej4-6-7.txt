@@ -1,0 +1,223 @@
+Ejercicio 1.10.4. Implementar algoritmos que permitan:
+a) Calcular el perímetro de un rectángulo dada su base y su altura.
+
+Algorithm calculate_rectangle_perimeter
+
+Input (parametros de entrada):
+    base: numeric
+    height: numeric
+
+Variables:
+    perimeter: numeric
+
+Start:
+    perimeter <- 2 * (base + height)
+
+Output:
+    return perimeter
+
+--------------------------------------------
+
+b) Calcular el área de un rectángulo dada su base y su altura.
+
+Algorithm calculate_rectangle_area
+
+Input (parametros de entrada):
+    base: numeric
+    height: numeric
+
+Variables:
+    area: numeric
+
+Start:
+    area <- base * height
+
+Output:
+    return area
+
+--------------------------------------------
+
+c) Calcular el área de un rectángulo (alineado con los ejes 𝑥 e 𝑦) dadas sus coordenadas
+𝑥1, 𝑥2, 𝑦1, 𝑦2.
+
+Algorithm calculate_rectangle_area_coords
+
+Input (parametros de entrada):
+    x1: numeric
+    x2: numeric
+    y1: numeric
+    y2: numeric
+
+Variables:
+    area: numeric
+    base: numeric
+    height: numeric
+
+Start:
+    base <- x2 -x1
+    height <- y2 -x2
+    area <- base * height
+
+Output:
+    return area
+
+--------------------------------------------
+
+d) Calcular el perímetro de un círculo dado su radio.
+
+Algorithm calculate_circle_perimeter
+
+Input (parametros de entrada):
+    radius: numeric
+
+Variables:
+    perimeter: numeric
+
+Constants:
+    PI: 3.1416
+
+Start:
+    perimeter <- 2 * PI * radius
+
+Output:
+    return perimeter
+
+--------------------------------------------
+
+e) Calcular el área de un círculo dado su radio.
+
+Algorithm calculate_circle_area
+
+Input (parametros de entrada):
+    radius: numeric
+
+Variables:
+    area: numeric
+
+Constants:
+    PI: 3.1416
+
+Start:
+    area <- PI * pow(radius, 2)
+    
+Output:
+    return area
+
+--------------------------------------------
+
+f) Calcular el volumen de una esfera dado su radio.
+
+Algorithm calculate_sphere_volume
+
+Input (parametros de entrada):
+    radius: numeric
+
+Variables:
+    volume: numeric
+
+Constants:
+    PI: 3.1416
+
+Start:
+    volume <- (4/3) * PI * pow(radius, 3)
+    
+Output:
+    return volume
+
+--------------------------------------------
+
+g) Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
+
+Algorithm calculate_triangle_hypotenuse
+
+Input (parametros de entrada):
+	cathetus1: numeric
+	cathetus2: numeric
+	
+Variables:
+	hypotenuse: numeric
+	
+Start:
+	hypotenuse <- sqrt(pow(cathetus1,2) + pow(cathetus2,2))
+	
+Output:
+	return hypotenuse
+
+
+
+
+--------------------------------------------
+
+CON FOR: Ejercicio 1.10.6. Implementar un algoritmo que, dado un número entero 𝑛, permita calcular su
+factorial.
+
+ALgorithm_calculate_factorial
+
+Input (parametros de entrada): 
+	n: numeric
+
+Variables:
+	factorial: numeric
+    i: numeric
+
+Start:
+    factorial <- 1
+	for (i: n ..1) do:
+        factorial <- factorial * i
+    
+
+Output:
+	return factorial
+
+
+--------------------------------------------
+
+CON WHILE: Ejercicio 1.10.6. Implementar un algoritmo que, dado un número entero 𝑛, permita calcular su
+factorial.
+
+ALgorithm_calculate_factorial
+
+Input (parametros de entrada): 
+	n: numeric
+
+Variables:
+	factorial: numeric
+    i: numeric
+
+Start:
+    i <- n
+    factorial <- 1
+    while i >= 1 do:
+        factorial <- factorial * i
+        i <- i -1
+    done
+
+Output:
+	return factorial
+
+
+
+--------------------------------------------
+
+Ejercicio 1.10.7. Implementar algoritmos que resuelvan los siguientes problemas:
+
+a) Dados dos números, imprimir la suma, resta, división y multiplicación de ambos.
+Algorithm calculate_basic_operations
+
+
+
+b) Dado un número entero 𝑛, imprimir su tabla de multiplicar.
+
+Algorithm calculate_multiplication_table
+
+Input:
+    n: numeric
+
+Variables:
+    
+
+Start:
+    for (i: 1..10) do:
+        
+
+

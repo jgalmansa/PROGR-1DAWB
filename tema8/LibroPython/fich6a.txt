@@ -1,0 +1,8 @@
+Spain: Madrid
+France: Paris
+Portugal: Lisbon
+Germany: Berlin
+Australia: Canberra
+United Stated: Washinton DC
+Canada: Ottawa
+Argentina: Buenos Aires
